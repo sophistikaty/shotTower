@@ -29,6 +29,11 @@ body {
   	background: #E4E4E4;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 div#wrapper {
 	word-wrap: normal;
 	height: 110%;
