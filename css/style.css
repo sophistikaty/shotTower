@@ -1,3 +1,20 @@
+/*WP wrapper overrides*/
+
+div#masthead, div.header-bg, div.navigation clearfix, aside.widget-area, header.entry-header, div.entry-content p, div.col-md-12, div#bottom-wrapper, footer#site-footer {
+	display: none;
+  
+}
+
+div.col-md-9 {
+	width: 100%;
+}
+
+div#content, div.container {
+padding: 0px;
+margin: 0px;
+}
+
+
 
 /* Mobile first - default styles */
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
@@ -15,6 +32,7 @@ body {
 div#wrapper {
 	word-wrap: normal;
 	height: 110%;
+	overflow: hidden;
 }
 
 div#header {
@@ -31,6 +49,7 @@ div#box {
 	margin: 29px;
 	text-align: center;
 	height: 52%;
+	padding: 110px 0px 110px 0px;
 }
 
 img#logo {
@@ -39,81 +58,74 @@ img#logo {
 
 div#line {
 	width: 55%;
-	border-bottom: 1px solid #000000;
+	border-bottom: 2px solid #000000;
 	position: relative;
 		top: 20px;
 		left: 23%;
 	margin: 20px 0px 0px 0px;
 }
 
-span#info-top {
-	padding: 109px 60px 70px 30px;
+section#info-top {
+  padding: 33px 75px 70px 75px;
+  word-spacing: 7px;
+  line-height: 2.25;
+}
+
+section#info-top p {
+	display: block;
 }
 
 div#footer {
 	background: #333333;
-	padding: 30px 60px;
-	color: #E4E4E4;
-	font-size: 22px;
-	font-weight: normal;
-	height: 8%;
+  padding: 15px 43px 0px 75px;
+  line-height: .9;
+  color: #E4E4E4;
+  font-size: 22px;
+  font-weight: normal;
 }
 
 #footer p {
-	  margin: 10px 160px 30px 0px;
+  display: block;
+	margin: 17px 160px 30px 0px;
+  padding: 0px;
+  line-height: 1.3;
 }
 
 img#linkedin {
-  width: 20px;
+    width: 56px;
   position: relative;
-  top: -35px;
-  left: 860px;
+  top: -126px;
+  left: 766px;
 }
 
-#socialbar .socialicon {
-  font-size: 1rem;
-  line-height: 1;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  padding-top: 0.5rem;
-  background-color: #42474d;
-  text-align: center;
+a {
+	cursor: pointer;
 }
 
-#socialbar a {
-  color: #767676;
-}
-
-#socialbar a:hover {
-  color: #dd3333;
-}
-
-/*Small devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
-	
-
-}
-	
 /*Medium devices (desktops, 992px and up)*/
 @media (min-width: 992px) {	
-	body {
-	
-  		font-size: 15px;
-  }
 
-	img#banner {
-		width: 100%;
-		height: 92%;
+	body {
+		font-size: 15px;
+    }
+
+	img#banner {/*
+		position: absolute;*/
+		height: 100%;
+		overflow: hidden;
+
+	}
+
+	div#wrapper {
+
+		height: auto;
 	}
 
 	div#box {
 		position: absolute;
-		  top: 10px;
-		  left: 10px;
-		  height: 150px;
-		  width: 80%;
+	  top: -97px;
+	  left: -100px;
+	  width: 80%;
 	}
 
 	img#logo {
@@ -129,21 +141,30 @@ img#linkedin {
 		display: none;
 	}
 
-	span#info-top {
-		position: relative;
-		  top: -99px;
-  			left: 190px;
+	section#info-top {
+		  position: relative;
+		  top: -142px;
+		  left: 222px;
 	}
 
 	div#footer {
-		height: 5%;
-		font-size: 14px;
-		
+	  position: absolute;
+	  top: 90%;
+	  left: 0px;
+	  width: 100%;
+	  height: 10%;
+	  font-size: 11px;
+	  padding: 9px 43px 8px 75px;
+	}
+
+	#footer p {
+	  margin: 9px 160px 9px 0px;
 	}
 
 	img#linkedin {
-		top: -26px;
-  		left: 686px;
+	  top: -47px;
+	  left: 1300px;
+	  width: 35px;
 	}
 }
 	
