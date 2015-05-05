@@ -24,7 +24,7 @@ body {
 	padding: 0px;
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
-  	font-size: 35px;
+  	font-size: 16px;
   	color: #333333;
   	background: #E4E4E4;
 }
@@ -46,34 +46,34 @@ div#header {
 }
 
 img#banner {
-	width: 100%;
-	height: 50%;
+	width: 130%;
 }
 
 div#box {
-	margin: 29px;
+	margin: 0px;
 	text-align: center;
 	height: 52%;
-	padding: 110px 0px 110px 0px;
+	padding: 75px 0px 40px 0px;
 }
 
 img#logo {
-	width: 725px;
+	width: 65%;;
 }
 
 div#line {
-	width: 55%;
+	width: 74%;
 	border-bottom: 2px solid #000000;
 	position: relative;
-		top: 20px;
-		left: 23%;
-	margin: 20px 0px 0px 0px;
+	top: 20px;
+	left: 13%;
+	margin: 15px 0px 15px 0px;
 }
 
 section#info-top {
-  padding: 33px 75px 70px 75px;
+  padding: 33px 40px 70px 40px;
   word-spacing: 7px;
   line-height: 2.25;
+  letter-spacing: 1.01px;
 }
 
 section#info-top p {
@@ -82,10 +82,10 @@ section#info-top p {
 
 div#footer {
 	background: #333333;
-  padding: 15px 43px 0px 75px;
+  padding: 15px 0px 0px 55px;
   line-height: .9;
   color: #E4E4E4;
-  font-size: 22px;
+  font-size: 10px;
   font-weight: normal;
 }
 
@@ -97,14 +97,45 @@ div#footer {
 }
 
 img#linkedin {
-    width: 56px;
+     width: 50px;
   position: relative;
-  top: -126px;
-  left: 766px;
+  top: -110px;
+  left: 85%;
 }
 
 a {
 	cursor: pointer;
+}
+
+@media (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) { 
+
+	body {
+		font-size: 35px;
+	}
+
+	div#box {
+		margin: 29px;
+	}
+
+	div#line {
+		width: 79%;
+		  left: 10%;
+	}
+
+	section#info-top {
+	  padding: 33px 75px 70px 75px;
+	}
+
+	div#footer {
+	  padding: 15px 43px 0px 75px;
+	  font-size: 22px;
+	}
+
+	img#linkedin {
+	    width: 56px;
+	  left: 790px;
+	}
+
 }
 
 /*Medium devices (desktops, 992px and up)*/
@@ -128,18 +159,18 @@ a {
 
 	div#box {
 		position: absolute;
-	  top: -97px;
-	  left: -100px;
+	  top: 0px;
+	  left: -10%;
 	  width: 80%;
 	}
 
 	img#logo {
-		  width: 265px;
+		  width: 240px;
 		  position: relative;
 		  top: 0px;
-		  left: -165px;
+		  left: -10%;
 		  padding-right: 14px;
-		  border-right: 1px solid;
+		  border-right: 2px solid;
 	}
 
 	div#line {
@@ -149,7 +180,8 @@ a {
 	section#info-top {
 		  position: relative;
 		  top: -142px;
-		  left: 222px;
+		  left: 50%;
+		  text-align: left;
 	}
 
 	div#footer {
@@ -168,7 +200,7 @@ a {
 
 	img#linkedin {
 	  top: -47px;
-	  left: 1300px;
+	  left: 88%;
 	  width: 35px;
 	}
 }
