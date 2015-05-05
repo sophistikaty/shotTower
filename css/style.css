@@ -71,9 +71,8 @@ div#line {
 
 section#info-top {
   padding: 33px 40px 70px 40px;
-  word-spacing: 7px;
   line-height: 2.25;
-  letter-spacing: 1.01px;
+  letter-spacing: 2px;
 }
 
 section#info-top p {
@@ -145,10 +144,8 @@ a {
 		font-size: 15px;
     }
 
-	img#banner {/*
-		position: absolute;*/
-		height: 100%;
-		overflow: hidden;
+	img#banner {
+		width: 100%;
 
 	}
 
@@ -159,7 +156,7 @@ a {
 
 	div#box {
 		position: absolute;
-	  top: 0px;
+	  top: -20px;
 	  left: -10%;
 	  width: 80%;
 	}
@@ -169,7 +166,7 @@ a {
 		  position: relative;
 		  top: 0px;
 		  left: -10%;
-		  padding-right: 14px;
+		  padding-right: 25px;
 		  border-right: 2px solid;
 	}
 
@@ -178,10 +175,11 @@ a {
 	}
 
 	section#info-top {
-		  position: relative;
+		    position: relative;
 		  top: -142px;
 		  left: 50%;
 		  text-align: left;
+		  margin-left: 31px;
 	}
 
 	div#footer {
