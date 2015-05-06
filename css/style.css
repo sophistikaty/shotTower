@@ -72,7 +72,7 @@ div#line {
 section#info-top {
   padding: 33px 40px 70px 40px;
   line-height: 2.25;
-  letter-spacing: 2px;
+  letter-spacing: 1.05px;
 }
 
 section#info-top p {
@@ -182,7 +182,7 @@ a {
 	}
 
 	#footer p {
-	  line-height: 1.3;
+	line-height: 1.05;
 	 margin: 15px 160px 0px 0px;
 	}
 
@@ -203,7 +203,7 @@ a {
     }
 
 	img#banner {
-		width: 100%;
+		width: 91%;
 
 	}
 
@@ -220,12 +220,12 @@ a {
 	}
 
 	img#logo {
-		 width: 185px;
-		  position: relative;
-		  top: 0px;
-		  left: -10%;
-		  padding-right: 25px;
-		  border-right: 2px solid;
+		width: 185px;
+		position: relative;
+		top: 0px;
+		left: -10%;
+		padding-right: 25px;
+		border-right: 2px solid;
 	}
 
 	div#line {
@@ -234,7 +234,7 @@ a {
 
 	section#info-top {
 	  position: relative;
-	    top: -115px;
+	  top: -115px;
 	  left: 55%;
 	  text-align: left;
 	  margin-left: 31px;
@@ -246,7 +246,7 @@ a {
 	  left: 0px;
 	  width: 100%;
 	  height: 10%;
-	   font-size: 8px;
+	  font-size: 9px;
 	  padding: 9px 43px 8px 75px;
 	}
 
