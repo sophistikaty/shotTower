@@ -154,14 +154,15 @@ a {
 
 	img#banner {
 	    width: 100%;
+	    min-width: 1020px;
 	}
 
 	div#box {
 	    position: absolute;
 	  top: 35px;
 	  left: -65px;
-	  width: 61%;
-	  padding: 15px 0px 0px 125px;
+	  width: 600px;
+  		padding: 15px 0px 0px 80px;
 	}
 
 	img#logo {
@@ -211,6 +212,7 @@ a {
 
 	img#banner {
 		width: 91%;
+		min-width: 1020px;
 
 	}
 
@@ -223,8 +225,8 @@ a {
 	    position: absolute;
 	  top: 35px;
 	  left: -110px;
-		width: 48%;
-	  padding: 15px 0px 0px 125px;
+		width: 600px;
+  		padding: 15px 0px 0px 80px;
 	}
 
 	img#logo {
