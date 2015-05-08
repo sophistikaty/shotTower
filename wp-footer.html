@@ -1,0 +1,51 @@
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the #content div and all content after
+ * You can change the copyright from the theme option settings
+ *
+ * @package Pure_and_Simple
+ * @since 1.0.0
+ */
+?>
+
+
+    </div><!-- #content -->
+</div><!-- #primary -->
+
+<?php get_sidebar( 'featured-bottom' ); ?>
+
+
+
+    <footer id="site-footer"  role="contentinfo">
+    
+      <div id="copyright">	
+	<p>*Securities transactions executed through Shot Tower Securities LLC, member FINRA/SIPC.</p>
+	<p>Copyright © 2015 Shot Tower Capital LLC. All rights reserved</p>
+      </div>
+	<a href="https://www.linkedin.com/company/shot-tower-capital" target="blank"><img id="linkedin"src="http://shotcap.com/wp-content/uploads/2015/05/In-0p5in-R.png" alt="Shot Tower Capital | Boutique Investment Bank. Baltimore-based investment firm specializing in media and entertainment banking, intellectual property, brand valuation, M&A and private equity."></a>
+
+<?php get_sidebar( 'footer' ); ?>        
+        
+        <div id="social-wrapper">
+            <?php get_template_part( 'partials/social-bar' ); ?>
+        </div>
+        
+
+        
+        <nav id="footer-nav" role="navigation">
+			<?php wp_nav_menu( array( 'theme_location' => 'footer', 'fallback_cb' => false, 'depth' => 1,'container' => false, 'menu_id' => 'footer-menu' ) ); ?>
+        </nav>
+            
+            
+    </footer>
+    
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+
+
+</body>
+</html>
